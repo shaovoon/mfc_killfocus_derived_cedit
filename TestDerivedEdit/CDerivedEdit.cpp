@@ -8,7 +8,7 @@
 
 // CDerivedEdit
 
-IMPLEMENT_DYNAMIC(CDerivedEdit, CWnd)
+IMPLEMENT_DYNAMIC(CDerivedEdit, CEdit)
 
 CDerivedEdit::CDerivedEdit()
 {
@@ -20,7 +20,7 @@ CDerivedEdit::~CDerivedEdit()
 }
 
 
-BEGIN_MESSAGE_MAP(CDerivedEdit, CWnd)
+BEGIN_MESSAGE_MAP(CDerivedEdit, CEdit)
 	ON_WM_KILLFOCUS()
 END_MESSAGE_MAP()
 
@@ -33,7 +33,7 @@ END_MESSAGE_MAP()
 
 void CDerivedEdit::OnKillFocus(CWnd* pNewWnd)
 {
-	CWnd::OnKillFocus(pNewWnd);
+	CEdit::OnKillFocus(pNewWnd);
 
 	OutputDebugStringA("OnKillFocus called.\n");
 }

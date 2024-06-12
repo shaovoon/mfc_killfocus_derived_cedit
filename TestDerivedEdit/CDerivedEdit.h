@@ -3,7 +3,7 @@
 
 // CDerivedEdit
 
-class CDerivedEdit : public CWnd
+class CDerivedEdit : public CEdit
 {
 	DECLARE_DYNAMIC(CDerivedEdit)
 
