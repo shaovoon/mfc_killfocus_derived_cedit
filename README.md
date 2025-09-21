@@ -2,9 +2,9 @@
 
 ## Table of Content
 
-	* Introduction
-	* Solution
-	* History
+* Introduction
+* Solution
+* History
 
 ## Introduction
 
