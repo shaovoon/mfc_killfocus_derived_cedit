@@ -75,7 +75,6 @@ void CDerivedEdit::OnKillFocus(CWnd* pNewWnd)
 
     OutputDebugStringA("OnKillFocus called.\n");
 }
-
 ```
 
 For the button function action, double-click on the button, a function will be added automatically. Add `m_edtAddress.SetFocus();` to the function. This kills focus of the `m_edtName` by setting focus to `m_edtAddress`.
